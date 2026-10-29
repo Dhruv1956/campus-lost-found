@@ -1,5 +1,7 @@
 # Campus Lost & Found Portal
 
+**Author:** Dhruv Upadhyaya ([@Dhruv1956](https://github.com/Dhruv1956)) · Advanced Java & J2EE · 2026
+
 **Advanced Java & J2EE mini project** — a web portal where students post items they lost or found on campus, search for them, and contact each other safely.
 
 Built with: **Servlets · JSP · JSTL/EL · JDBC · Filters · Listeners · HttpSession · MVC · DAO pattern** (Jakarta EE 10 / Tomcat 10.1, Java 17+).
