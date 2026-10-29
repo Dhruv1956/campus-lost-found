@@ -1,0 +1,19 @@
+<%@ page pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="jakarta.tags.core" %>
+<%@ taglib prefix="fmt" uri="jakarta.tags.fmt" %>
+<%--
+    One item card. Included INSIDE a <c:forEach var="item" ...> loop with a static include,
+    so it can use the loop variable "item" directly.
+--%>
+<a class="card" href="${ctx}/item?id=${item.id}">
+    <div class="card-img">
+        <div class="noimg">📦</div>
+        <span class="badge badge-${item.type}">${item.type}</span>
+        <c:if test="${item.status == 'RESOLVED'}"><span class="badge badge-RESOLVED badge-right">RESOLVED</span></c:if>
+    </div>
+    <div class="card-body">
+        <h3><c:out value="${item.title}"/></h3>
+        <p class="meta">📍 <c:out value="${item.location}"/></p>
+        <p class="meta">🗓 <fmt:formatDate value="${item.eventDate}" pattern="dd MMM yyyy"/> &middot; <c:out value="${item.category}"/></p>
+    </div>
+</a>

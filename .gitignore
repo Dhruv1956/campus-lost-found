@@ -1,0 +1,11 @@
+target/
+maven/
+*.zip
+*.tar.gz
+*.removed
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.class
+campus-lostfound-data/
