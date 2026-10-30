@@ -2,6 +2,10 @@
 
 **Author:** Dhruv Upadhyaya ([@Dhruv1956](https://github.com/Dhruv1956)) · Advanced Java & J2EE · 2026
 
+## Project report
+
+📄 [Read the project report (PDF)](docs/Campus_Lost_Found_Report.pdf) — covers the introduction, the pseudocode of the implementation, the results with screenshots and the conclusion.
+
 **Advanced Java & J2EE mini project** — a web portal where students post items they lost or found on campus, search for them, and contact each other safely.
 
 Built with: **Servlets · JSP · JSTL/EL · JDBC · Filters · Listeners · HttpSession · MVC · DAO pattern** (Jakarta EE 10 / Tomcat 10.1, Java 17+).
